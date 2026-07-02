@@ -44,6 +44,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [XNOR gate](https://hdlbits.01xz.net/wiki/xnorgate)
 - [x] [Declaring wires](https://hdlbits.01xz.net/wiki/wire_decl)
 - [x] [7458 chip](https://hdlbits.01xz.net/wiki/7458)
+
+
 **Vectors**
 - [x] [Vectors](https://hdlbits.01xz.net/wiki/vector0)
 - [x] [Vectors in more detail](https://hdlbits.01xz.net/wiki/vector1)
@@ -54,6 +56,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Vector reversal 1](https://hdlbits.01xz.net/wiki/vectorr)
 - [x] [Replication operator](https://hdlbits.01xz.net/wiki/vector4)
 - [x] [More replication](https://hdlbits.01xz.net/wiki/vector5)
+
+
 **Modules: Hierarchy**
 - [x] [Modules](https://hdlbits.01xz.net/wiki/module)
 - [x] [Connecting ports by position](https://hdlbits.01xz.net/wiki/module_pos)
@@ -64,6 +68,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Adder 2](https://hdlbits.01xz.net/wiki/module_fadd)
 - [x] [Carry-select adder](https://hdlbits.01xz.net/wiki/module_cseladd)
 - [x] [Adder-subtractor](https://hdlbits.01xz.net/wiki/module_addsub)
+
+
 **Procedures**
 - [x] [Always blocks (combinational)](https://hdlbits.01xz.net/wiki/alwaysblock1)
 - [x] [Always blocks (clocked)](https://hdlbits.01xz.net/wiki/alwaysblock2)
@@ -73,6 +79,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Priority encoder](https://hdlbits.01xz.net/wiki/always_case2)
 - [x] [Priority encoder with casez](https://hdlbits.01xz.net/wiki/always_casez)
 - [x] [Avoiding latches](https://hdlbits.01xz.net/wiki/always_nolatches)
+
+
 **More Verilog Features**
 - [x] [Conditional ternary operator](https://hdlbits.01xz.net/wiki/conditional)
 - [x] [Reduction operators](https://hdlbits.01xz.net/wiki/reduction)
@@ -81,6 +89,7 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Combinational for-loop: 255-bit population count](https://hdlbits.01xz.net/wiki/popcount255)
 - [x] [Generate for-loop: 100-bit binary adder 2](https://hdlbits.01xz.net/wiki/adder100i)
 - [x] [Generate for-loop: 100-digit BCD adder](https://hdlbits.01xz.net/wiki/bcdadd100)
+
 ### Circuits — Combinational Logic
  
 **Basic Gates**
@@ -101,12 +110,16 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [3-bit population count](https://hdlbits.01xz.net/wiki/popcount3)
 - [x] [Gates and vectors](https://hdlbits.01xz.net/wiki/gatesv)
 - [x] [Even longer vectors](https://hdlbits.01xz.net/wiki/gatesv100)
+
+
 **Multiplexers**
 - [x] [2-to-1 multiplexer](https://hdlbits.01xz.net/wiki/mux2to1)
 - [x] [2-to-1 bus multiplexer](https://hdlbits.01xz.net/wiki/mux2to1v)
 - [x] [9-to-1 multiplexer](https://hdlbits.01xz.net/wiki/mux9to1v)
 - [x] [256-to-1 multiplexer](https://hdlbits.01xz.net/wiki/mux256to1)
 - [x] [256-to-1 4-bit multiplexer](https://hdlbits.01xz.net/wiki/mux256to1v)
+
+
 **Arithmetic Circuits**
 - [x] [Half adder](https://hdlbits.01xz.net/wiki/hadd)
 - [x] [Full adder](https://hdlbits.01xz.net/wiki/fadd)
@@ -115,6 +128,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Signed addition overflow](https://hdlbits.01xz.net/wiki/exams/ece241_2014_q1c)
 - [x] [100-bit binary adder](https://hdlbits.01xz.net/wiki/adder100)
 - [x] [4-digit BCD adder](https://hdlbits.01xz.net/wiki/bcdadd4)
+
+
 **Karnaugh Map to Circuit**
 - [x] [3-variable](https://hdlbits.01xz.net/wiki/kmap1)
 - [x] [4-variable](https://hdlbits.01xz.net/wiki/kmap2)
@@ -124,6 +139,7 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Karnaugh map](https://hdlbits.01xz.net/wiki/exams/m2014_q3)
 - [x] [Karnaugh map](https://hdlbits.01xz.net/wiki/exams/2012_q1g)
 - [x] [K-map implemented with a multiplexer](https://hdlbits.01xz.net/wiki/exams/ece241_2014_q3)
+
 ### Circuits — Sequential Logic
  
 **Latches and Flip-Flops**
@@ -145,6 +161,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Detect both edges](https://hdlbits.01xz.net/wiki/edgedetect2)
 - [x] [Edge capture register](https://hdlbits.01xz.net/wiki/edgecapture)
 - [x] [Dual-edge triggered flip-flop](https://hdlbits.01xz.net/wiki/dualedge)
+
+
 **Counters**
 - [x] [Four-bit binary counter](https://hdlbits.01xz.net/wiki/count15)
 - [x] [Decade counter](https://hdlbits.01xz.net/wiki/count10)
@@ -154,6 +172,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Counter 1000](https://hdlbits.01xz.net/wiki/exams/ece241_2014_q7b)
 - [x] [4-digit decimal counter](https://hdlbits.01xz.net/wiki/countbcd)
 - [x] [12-hour clock](https://hdlbits.01xz.net/wiki/count_clock)
+
+
 **Shift Registers**
 - [x] [4-bit shift register](https://hdlbits.01xz.net/wiki/shift4)
 - [x] [Left/right rotator](https://hdlbits.01xz.net/wiki/rotate100)
@@ -164,12 +184,14 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Shift register](https://hdlbits.01xz.net/wiki/exams/m2014_q4k)
 - [x] [Shift register](https://hdlbits.01xz.net/wiki/exams/2014_q4b)
 - [x] [3-input LUT](https://hdlbits.01xz.net/wiki/exams/ece241_2013_q12)
+
 ### Circuits — More Circuits
  
 **More Circuits (Cellular Automata)**
 - [x] [Rule 90](https://hdlbits.01xz.net/wiki/rule90)
 - [x] [Rule 110](https://hdlbits.01xz.net/wiki/rule110)
 - [x] [Conway's Game of Life 16x16](https://hdlbits.01xz.net/wiki/conwaylife)
+
 ## Up Next
  
 - Finite State Machines
