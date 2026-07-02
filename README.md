@@ -1,6 +1,6 @@
 # My HDLBits Solutions Archive
  
-An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page) — a Verilog/RTL practice platform developed by University of Toronto. Working through this self-directed over summer 2026 ahead of first-year Electrical Engineering at the University of Waterloo, as prep for RTL/digital design & verification.
+An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page) — a Verilog/RTL practice platform developed by University of Toronto. Working through this self-directed over summer 2026 ahead of first-year Electrical Engineering at the University of Waterloo, as a means to explore my interest and expand my knowledge on RTL design & verification.
 
 All problem sets are organized by topic in their respective folders.
 
