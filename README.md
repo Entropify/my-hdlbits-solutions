@@ -28,7 +28,7 @@ All problem sets organized by topic in their respective folders.
 |---|---|
 | Getting Started | ✅ Complete |
 | Verilog Language (Basics, Vectors, Modules, Procedures, More Features) | ✅ Complete |
-| Circuits — Combinational Logic | ✅ Complete |
+| Circuits — Combinational Logic (Basic Gates, Multiplexers, Arithmetic Circuits, Karnaugh Map to Circuit) | ✅ Complete |
 | Circuits — Sequential Logic (Latches/FFs, Counters, Shift Registers) | ✅ Complete |
 | Circuits — More Circuits (Cellular Automata) | ✅ Complete |
 | Circuits — Finite State Machines | 🔄 In progress |
