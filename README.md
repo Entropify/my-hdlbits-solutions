@@ -4,7 +4,7 @@ An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
 
 All problem sets organized by topic in their respective folders.
 
-## Skills Demonstrated
+## Skills I've Learned So Far
  
 - **RTL fundamentals** — combinational and sequential logic, blocking vs. non-blocking assignment semantics, avoiding unintended latch inference
 - **Datapath building blocks** — ripple-carry and carry-select adders, adder-subtractors, BCD arithmetic, multiplexers, priority encoders, population counters
