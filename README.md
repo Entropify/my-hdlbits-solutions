@@ -3,6 +3,16 @@
 An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page) — a Verilog/RTL practice platform developed by University of Toronto. Working through this self-directed over summer 2026 ahead of first-year Electrical Engineering at the University of Waterloo, as prep for RTL/digital design & verification.
 
 All problem sets organized by topic in their respective folders.
+
+## Skills Demonstrated
+ 
+- **RTL fundamentals** — combinational and sequential logic, blocking vs. non-blocking assignment semantics, avoiding unintended latch inference
+- **Datapath building blocks** — ripple-carry and carry-select adders, adder-subtractors, BCD arithmetic, multiplexers, priority encoders, population counters
+- **Finite state machine design** — edge detection, dual-edge triggered flip-flops
+- **Shift registers & LFSRs** — Galois-style LFSR structure, tap selection for maximal-length sequences
+- **Parameterized/generative design** — `generate` for-loops for scalable adders and BCD chains, reduction operators on wide vectors
+- **Grid-based sequential systems** — Conway's Game of Life on a toroidal 16×16 grid, cellular automata (Rule 90/110)
+
  
 ## Progress
  
@@ -10,6 +20,8 @@ All problem sets organized by topic in their respective folders.
  
 
 ![Progress](https://progress-bar.xyz/65/)
+
+
 
  
 | Section | Status |
