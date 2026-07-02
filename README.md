@@ -2,7 +2,7 @@
  
 An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page) — a Verilog/RTL practice platform developed by University of Toronto. Working through this self-directed over summer 2026 ahead of first-year Electrical Engineering at the University of Waterloo, as prep for RTL/digital design & verification.
 
-All problem sets organized by topic in their respective folders.
+All problem sets are organized by topic in their respective folders.
 
 ## Skills I've Learned So Far
  
