@@ -6,10 +6,10 @@ All problem sets organized by topic in their respective folders.
  
 ## Progress
  
-**118 / 182 problems complete (64.8%)**
+**118 / 182 problems complete (65%)**
  
 ```
-████████████████░░░░░░░░ 64.8%
+![Progress](https://progress-bar.xyz/65/)
 ```
  
 | Section | Status |
