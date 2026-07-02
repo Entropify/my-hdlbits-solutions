@@ -4,6 +4,14 @@ An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
 
 All problem sets are organized by topic in their respective folders.
 
+## Progress
+ 
+**118 / 182 problems complete (65%)**
+ 
+
+![Progress](https://progress-bar.xyz/65/)
+
+
 ## Skills I've Learned So Far
  
 - **RTL fundamentals** — combinational and sequential logic, blocking vs. non-blocking assignment semantics, avoiding unintended latch inference
@@ -14,15 +22,6 @@ All problem sets are organized by topic in their respective folders.
 - **Grid-based sequential systems** — Conway's Game of Life on a toroidal 16×16 grid, cellular automata (Rule 90/110)
 
  
-## Progress
- 
-**118 / 182 problems complete (65%)**
- 
-
-![Progress](https://progress-bar.xyz/65/)
-
-
-
  
 | Section | Status |
 |---|---|
