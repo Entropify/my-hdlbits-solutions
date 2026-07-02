@@ -206,7 +206,7 @@ A few problems worth calling out for the design decisions involved rather than b
 - **Conway's Game of Life (16×16 toroidal)** — wrap-around neighbor indexing on a toroidal grid, and the blocking vs. non-blocking assignment pitfalls that come up when updating a full grid state in one clock edge.
 
  
-All solutions here were simulated successfully virtually with [ModelSim](https://www.altera.com/downloads/simulation-tools/modelsim-fpgas-standard-edition-software-version-18-1) and synthesized successfully with [Altera Quartus]([http://gtkwave.sourceforge.net/](https://www.altera.com/products/development-tools/quartus).
+All solutions here were simulated successfully virtually with [ModelSim](https://www.altera.com/downloads/simulation-tools/modelsim-fpgas-standard-edition-software-version-18-1) and synthesized successfully with [Altera Quartus](https://www.altera.com/products/development-tools/quartus).
 
 By Zhiyuan (Jerry) Jiang
  
