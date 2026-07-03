@@ -16,7 +16,7 @@ All problem sets are organized by topic in their respective folders.
  
 - **RTL fundamentals** — combinational and sequential logic, blocking vs. non-blocking assignment semantics, avoiding unintended latch inference
 - **Datapath building blocks** — ripple-carry and carry-select adders, adder-subtractors, BCD arithmetic, multiplexers, priority encoders, population counters
-- **Finite state machine design** — edge detection, dual-edge triggered flip-flops
+- **Finite state machine design** — Moore and Mealy machines, one-hot state encoding, hysteresis FSM, edge detection, dual-edge triggered flip-flops
 - **Shift registers & LFSRs** — Galois-style LFSR structure, tap selection for maximal-length sequences
 - **Parameterized/generative design** — `generate` for-loops for scalable adders and BCD chains, reduction operators on wide vectors
 - **Grid-based sequential systems** — Conway's Game of Life on a toroidal 16×16 grid, cellular automata (Rule 90/110)
@@ -196,12 +196,22 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Shift register](https://hdlbits.01xz.net/wiki/exams/2014_q4b)
 - [x] [3-input LUT](https://hdlbits.01xz.net/wiki/exams/ece241_2013_q12)
 
-### Circuits — More Circuits
- 
 **More Circuits (Cellular Automata)**
 - [x] [Rule 90](https://hdlbits.01xz.net/wiki/rule90)
 - [x] [Rule 110](https://hdlbits.01xz.net/wiki/rule110)
 - [x] [Conway's Game of Life 16x16](https://hdlbits.01xz.net/wiki/conwaylife)
+
+**Finite State Machines**
+- [x] [Simple FSM 1 (asynchronous reset)](https://hdlbits.01xz.net/wiki/fsm1)
+- [x] [Simple FSM 1 (synchronous reset)](https://hdlbits.01xz.net/wiki/fsm1s)
+- [x] [Simple FSM 2 (asynchronous reset)](https://hdlbits.01xz.net/wiki/fsm2)
+- [x] [Simple FSM 2 (synchronous reset)](https://hdlbits.01xz.net/wiki/fsm2s)
+- [x] [Simple state transitions 3](https://hdlbits.01xz.net/wiki/fsm3comb)
+- [x] [Simple one-hot state transitions 3](https://hdlbits.01xz.net/wiki/fsm3onehot)
+- [x] [Simple FSM 3 (asynchronous reset)](https://hdlbits.01xz.net/wiki/fsm3)
+- [x] [Simple FSM 3 (synchronous reset)](https://hdlbits.01xz.net/wiki/fsm3s)
+- [x] [Design a Moore FSM](https://hdlbits.01xz.net/wiki/exams/ece241_2013_q4)
+
 
 ## Up Next
  
@@ -209,12 +219,15 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - Building Larger Circuits
 - Verification: Reading Simulations
 - Verification: Writing Testbenches
+
 ## Notes
  
 A few problems worth calling out for the design decisions involved rather than being pure syntax exercises:
 - **32-bit LFSR** — Galois-style LFSR structure, choosing correct tap positions for a maximal-length sequence.
 - **12-hour clock** — multi-field state (hours/minutes/seconds) with carry logic between fields and edge cases at 12:59:59 → 1:00:00.
 - **Conway's Game of Life (16×16 toroidal)** — wrap-around neighbor indexing on a toroidal grid, and the blocking vs. non-blocking assignment pitfalls that come up when updating a full grid state in one clock edge.
+- **One-Hot FSM Vector Derivation** — deriving state transitions and output equations manually "by inspection" using pure bitwise concurrent assignments (assign). Illustrates the trade-off of using more flip-flops to minimize combinational decoding logic paths for high-frequency hardware, while observing how un-optimized equations handle illegal non-one-hot state corruption.
+- **Water Reservoir Hysteresis Controller** — a 6-state Moore machine overcoming a directional state-tracking problem. Utilizes vector to map physical sensor logic directly to state names, implementing directional tracking (rising vs. falling) to drive a supplemental flow rate valve (ΔFR) only when the level drops, and drive three distinct nominal flow rate outputs (FR1, FR2, FR3) when the level rises.
 
  
 All solutions here were simulated successfully virtually with [ModelSim](https://www.altera.com/downloads/simulation-tools/modelsim-fpgas-standard-edition-software-version-18-1) and synthesized successfully with [Altera Quartus](https://www.altera.com/products/development-tools/quartus).
