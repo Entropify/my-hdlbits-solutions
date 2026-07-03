@@ -231,5 +231,5 @@ A few problems worth calling out for the design decisions involved rather than b
  
 All solutions here were simulated successfully virtually with [ModelSim](https://www.altera.com/downloads/simulation-tools/modelsim-fpgas-standard-edition-software-version-18-1) and synthesized successfully with [Altera Quartus](https://www.altera.com/products/development-tools/quartus).
 
-By Zhiyuan (Jerry) Jiang
- 
+Solutions by Zhiyuan (Jerry) Jiang
+Problem sets and resources by [HDLbits](https://hdlbits.01xz.net/wiki/Main_Page)
