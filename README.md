@@ -6,10 +6,10 @@ All problem sets are organized by topic in their respective folders.
 
 ## Progress
  
-**118 / 182 problems complete (65%)**
+**127 / 182 problems complete (70%)**
  
 
-![Progress](https://progress-bar.xyz/65/)
+![Progress](https://progress-bar.xyz/70/)
 
 
 ## Skills I've Learned So Far
