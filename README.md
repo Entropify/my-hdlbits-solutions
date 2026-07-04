@@ -1,4 +1,18 @@
-# Jerry's HDLBits Solutions Archive
+
+<p align="center">
+  <img src="https://hdlbits.01xz.net/images/logo270.png" alt="Logo" width="60" height="60">
+</p>
+
+<h1 align="center">Jerry's HDLBits Solutions Archive</h1>
+
+<p align="center">
+<img alt="Static Badge" src="https://img.shields.io/badge/Please%20%E2%AD%90%20if%20useful!-grey">
+<img alt="Static Badge" src="https://img.shields.io/badge/V-Verilog-%234472f2">
+</p>
+
+
+
+
  
 An archive of my solutions to [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page), a Verilog/RTL practice platform developed by University of Toronto. Working through this self-directed over summer 2026 ahead of first-year Electrical Engineering at the University of Waterloo, as a means to explore my interest and expand my knowledge on RTL design & verification.
 
@@ -6,10 +20,10 @@ All problem sets are organized by topic in their respective folders.
 
 ## Progress
  
-**127 / 182 problems complete (70%)**
+**137 / 182 problems complete (75%)**
  
 
-![Progress](https://progress-bar.xyz/70/)
+![Progress](https://progress-bar.xyz/75/)
 
 
 ## Skills I've Learned So Far
@@ -211,6 +225,16 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Simple FSM 3 (asynchronous reset)](https://hdlbits.01xz.net/wiki/fsm3)
 - [x] [Simple FSM 3 (synchronous reset)](https://hdlbits.01xz.net/wiki/fsm3s)
 - [x] [Design a Moore FSM](https://hdlbits.01xz.net/wiki/exams/ece241_2013_q4)
+- [x] [Lemmings 1](https://hdlbits.01xz.net/wiki/lemmings1)
+- [x][Lemmings 2](https://hdlbits.01xz.net/wiki/lemmings2)
+- [x][Lemmings 3](https://hdlbits.01xz.net/wiki/lemmings3)
+- [x][Lemmings 4](https://hdlbits.01xz.net/wiki/lemmings4)
+- [x][One-hot FSM](https://hdlbits.01xz.net/wiki/fsm_onehot)
+- [x][PS/2 packet parser](https://hdlbits.01xz.net/wiki/fsm_ps2)
+- [x][PS/2 packet parser and datapath](https://hdlbits.01xz.net/wiki/fsm_ps2data)
+- [x][Serial receiver](https://hdlbits.01xz.net/wiki/fsm_serial)
+- [x][Serial receiver and datapath](https://hdlbits.01xz.net/wiki/fsm_serialdata)
+- [x][Serial receiver with parity checking](https://hdlbits.01xz.net/wiki/fsm_serialdp)
 
 
 ## Up Next
