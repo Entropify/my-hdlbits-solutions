@@ -55,12 +55,12 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 
 | Section | Status |
 |---|---|
-| Getting Started | ✅ Complete |
-| Verilog Language (Basics, Vectors, Modules, Procedures, More Features) | ✅ Complete |
-| Circuits — Combinational Logic (Basic Gates, Multiplexers, Arithmetic Circuits, Karnaugh Map to Circuit) | ✅ Complete |
-| Circuits — Sequential Logic (Latches/FFs, Counters, Shift Registers) | ✅ Complete |
-| Circuits — More Circuits (Cellular Automata) | ✅ Complete |
-| Circuits — Finite State Machines | ✅ Complete |
+| Getting Started | ✅ Completed |
+| Verilog Language (Basics, Vectors, Modules, Procedures, More Features) | ✅ Completed |
+| Circuits — Combinational Logic (Basic Gates, Multiplexers, Arithmetic Circuits, Karnaugh Map to Circuit) | ✅ Completed |
+| Circuits — Sequential Logic (Latches/FFs, Counters, Shift Registers) | ✅ Completed |
+| Circuits — More Circuits (Cellular Automata) | ✅ Completed |
+| Circuits — Finite State Machines | ✅ Completed |
 | Circuits — Building Larger Circuits | 🔄 In progress |
 | Verification — Reading Simulations | ⬜ Not started |
 | Verification — Writing Testbenches | ⬜ Not started |
