@@ -6,7 +6,7 @@
 <h1 align="center">Jerry's HDLBits Solutions Archive</h1>
 
 <p align="center">
-<img alt="Static Badge" src="https://img.shields.io/badge/Please%20%E2%AD%90%20if%20useful!-grey">
+<img alt="Static Badge" src="https://img.shields.io/badge/Please%20%E2%AD%90%20if%20useful!%20:)-grey">
 <img alt="Static Badge" src="https://img.shields.io/badge/V-Verilog-%234472f2">
 </p>
 
@@ -35,8 +35,22 @@ All problem sets are organized by topic in their respective folders.
 - **Parameterized/generative design:** `generate` for-loops for scalable adders and BCD chains, reduction operators on wide vectors
 - **Grid-based sequential systems:** Conway's Game of Life on a toroidal 16×16 grid, cellular automata (Rule 90/110)
 
+ ## Notes
  
+A few problems worth calling out for the design decisions involved rather than being pure syntax exercises:
+- **32-bit LFSR:** Galois-style LFSR structure, choosing correct tap positions for a maximal-length sequence.
+- **12-hour clock:** multi-field state (hours/minutes/seconds) with carry logic between fields and edge cases at 12:59:59 → 1:00:00.
+- **Conway's Game of Life (16×16 toroidal):** implemented the full birth/survival/death rule set on a 256-cell grid, with wrap-around (toroidal) neighbor indexing so edge and corner cells correctly reference neighbors on the opposite side of the board using combinational arithmetic. The trickiest part was updating all 256 cells simultaneously on a single clock edge: computing each cell's next state requires reading the current state of its 8 neighbors, so the whole grid has to be treated as one snapshot rather than updated cell-by-cell. This meant being deliberate about blocking vs. non-blocking assignment. Thus, using non-blocking (<=) throughout the update logic to make sure every cell computes its next state from the same consistent snapshot of the board, rather than accidentally reading a neighbor's already-updated value mid-cycle.
+- **Designing a Moore FSM for Water Reservoir Hysteresis Controller:** a 6-state Moore machine overcoming a directional state-tracking problem. Utilizes vector to map physical sensor logic directly to state names, implementing directional tracking (rising vs. falling) to drive a supplemental flow rate valve (ΔFR) only when the level drops, and drive three distinct nominal flow rate outputs (FR1, FR2, FR3) when the level rises.
+
+
+## Repo Structure
  
+Solutions are organized to mirror HDLBits' own categories, so it's easy to cross-reference against the site.
+
+
+## Solved Problems
+
 | Section | Status |
 |---|---|
 | Getting Started | ✅ Complete |
@@ -49,11 +63,7 @@ All problem sets are organized by topic in their respective folders.
 | Verification — Reading Simulations | ⬜ Not started |
 | Verification — Writing Testbenches | ⬜ Not started |
  
-## Repo Structure
- 
-Solutions are organized to mirror HDLBits' own categories, so it's easy to cross-reference against the site.
- 
-## Solved Problems
+---
  
 ### Getting Started
 - [x] [Getting Started](https://hdlbits.01xz.net/wiki/step_one)
@@ -244,14 +254,7 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - Verification: Reading Simulations
 - Verification: Writing Testbenches
 
-## Notes
- 
-A few problems worth calling out for the design decisions involved rather than being pure syntax exercises:
-- **32-bit LFSR:** Galois-style LFSR structure, choosing correct tap positions for a maximal-length sequence.
-- **12-hour clock:** multi-field state (hours/minutes/seconds) with carry logic between fields and edge cases at 12:59:59 → 1:00:00.
-- **Conway's Game of Life (16×16 toroidal):** implemented the full birth/survival/death rule set on a 256-cell grid, with wrap-around (toroidal) neighbor indexing so edge and corner cells correctly reference neighbors on the opposite side of the board using combinational arithmetic. The trickiest part was updating all 256 cells simultaneously on a single clock edge: computing each cell's next state requires reading the current state of its 8 neighbors, so the whole grid has to be treated as one snapshot rather than updated cell-by-cell. This meant being deliberate about blocking vs. non-blocking assignment. Thus, using non-blocking (<=) throughout the update logic to make sure every cell computes its next state from the same consistent snapshot of the board, rather than accidentally reading a neighbor's already-updated value mid-cycle.
-- **Designing a Moore FSM for Water Reservoir Hysteresis Controller:** a 6-state Moore machine overcoming a directional state-tracking problem. Utilizes vector to map physical sensor logic directly to state names, implementing directional tracking (rising vs. falling) to drive a supplemental flow rate valve (ΔFR) only when the level drops, and drive three distinct nominal flow rate outputs (FR1, FR2, FR3) when the level rises.
-
+---
  
 All solutions here were simulated successfully virtually with [ModelSim](https://www.altera.com/downloads/simulation-tools/modelsim-fpgas-standard-edition-software-version-18-1) and synthesized successfully with [Altera Quartus](https://www.altera.com/products/development-tools/quartus).
 
