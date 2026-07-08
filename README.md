@@ -22,9 +22,10 @@ All problem sets are organized by topic in their respective folders.
  
 **151 / 182 problems complete (83%)**
 
- *progress paused for the next few weeks to work on a cool new project 🤫🧏
 
 ![Progress](https://progress-bar.xyz/83/)
+
+ *progress paused for the next few weeks to work on a cool new project 🤫🧏
 
 
 ## Skills I've Learned So Far
