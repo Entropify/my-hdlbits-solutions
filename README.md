@@ -20,10 +20,11 @@ All problem sets are organized by topic in their respective folders.
 
 ## Progress
  
-**137 / 182 problems complete (75%)**
- 
+**151 / 182 problems complete (83%)**
 
-![Progress](https://progress-bar.xyz/75/)
+ *progress paused for the next few weeks to work on a cool new project 🤫🧏
+
+![Progress](https://progress-bar.xyz/83/)
 
 
 ## Skills I've Learned So Far
@@ -58,8 +59,8 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 | Circuits — Combinational Logic (Basic Gates, Multiplexers, Arithmetic Circuits, Karnaugh Map to Circuit) | ✅ Complete |
 | Circuits — Sequential Logic (Latches/FFs, Counters, Shift Registers) | ✅ Complete |
 | Circuits — More Circuits (Cellular Automata) | ✅ Complete |
-| Circuits — Finite State Machines | 🔄 In progress |
-| Circuits — Building Larger Circuits | ⬜ Not started |
+| Circuits — Finite State Machines | ✅ Complete |
+| Circuits — Building Larger Circuits | 🔄 In progress |
 | Verification — Reading Simulations | ⬜ Not started |
 | Verification — Writing Testbenches | ⬜ Not started |
  
@@ -245,11 +246,24 @@ Solutions are organized to mirror HDLBits' own categories, so it's easy to cross
 - [x] [Serial receiver](https://hdlbits.01xz.net/wiki/fsm_serial)
 - [x] [Serial receiver and datapath](https://hdlbits.01xz.net/wiki/fsm_serialdata)
 - [x] [Serial receiver with parity checking](https://hdlbits.01xz.net/wiki/fsm_serialdp)
+- [x] [Sequence recognition](https://hdlbits.01xz.net/wiki/fsm_hdlc)
+- [x] [Q8: Design a Mealy FSM](https://hdlbits.01xz.net/wiki/exams/ece241_2013_q8)
+- [x] [Q5a: Serial two's complementer (Moore FSM)](https://hdlbits.01xz.net/wiki/exams/ece241_2014_q5a)
+- [x] [Q5b: Serial two's complementer (Mealy FSM)](https://hdlbits.01xz.net/wiki/exams/ece241_2014_q5b)
+- [x] [Q3a: FSM](https://hdlbits.01xz.net/wiki/exams/2014_q3fsm)
+- [x] [Q3b: FSM](https://hdlbits.01xz.net/wiki/exams/2014_q3bfsm)
+- [x] [Q3c: FSM logic](https://hdlbits.01xz.net/wiki/exams/2014_q3c)
+- [x] [Q6b: FSM next-state logic](https://hdlbits.01xz.net/wiki/exams/m2014_q6b)
+- [x] [Q6c: FSM one-hot next-state logic](https://hdlbits.01xz.net/wiki/exams/m2014_q6c)
+- [x] [Q6: FSM](https://hdlbits.01xz.net/wiki/exams/m2014_q6)
+- [x] [Q2a: FSM](https://hdlbits.01xz.net/wiki/exams/2012_q2fsm)
+- [x] [Q2b: One-hot FSM equations](https://hdlbits.01xz.net/wiki/exams/2012_q2b)
+- [x] [Q2a: FSM](https://hdlbits.01xz.net/wiki/exams/2013_q2afsm)
+- [x] [Q2b: Another FSM](https://hdlbits.01xz.net/wiki/exams/2013_q2bfsm)
 
 
 ## Up Next
  
-- Finite State Machines
 - Building Larger Circuits
 - Verification: Reading Simulations
 - Verification: Writing Testbenches
