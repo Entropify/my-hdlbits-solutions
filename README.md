@@ -6,7 +6,6 @@
 <h1 align="center">Jerry's HDLBits Solutions Archive</h1>
 
 <p align="center">
-<img alt="Static Badge" src="https://img.shields.io/badge/Please%20%E2%AD%90%20if%20useful!%20:)-grey">
 <img alt="Static Badge" src="https://img.shields.io/badge/V-Verilog-%234472f2">
 </p>
 
